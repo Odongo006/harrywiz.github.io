@@ -1,0 +1,98 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset style for page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* navbar styles */
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(/imgs/Header\ bg.svg);
+  padding: 0.8rem;
+}
+
+.topNav {
+  display: none;
+}
+
+.nav-items {
+  margin: 0 0.5rem;
+}
+
+.nav-brand {
+  font-weight: 700;
+  color: #6070ff;
+}
+
+/* Hamburger menu */
+.hamburger {
+  display: block;
+}
+
+.bar {
+  display: block;
+  height: 5px;
+  width: 35px;
+  background-color: #6070ff;
+  margin: 3px;
+}
+
+/* background shadow  */
+.box2 {
+  background-color: #fff;
+  box-shadow: -10px 10px 10px -6px rgba(207, 205, 205, 0.501);
+  padding-bottom: 5rem;
+  border-bottom-left-radius: 5rem;
+}
+
+.Greetings h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 60px;
+  color: #091e42;
+  padding: 5rem 1rem 1rem 1rem;
+  padding-bottom: 1rem;
+}
+
+.Content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  padding: 1rem;
+}
+
+.contact {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  color: #7f8cff;
+  padding: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
