@@ -25,7 +25,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: url(/imgs/Header\ bg.svg);
   padding: 0.8rem;
 }
 
