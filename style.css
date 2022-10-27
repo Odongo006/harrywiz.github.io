@@ -56,14 +56,17 @@ body {
 
 /* background shadow  */
 .box2 {
-  
-  background-image: url(imgs/Header\ bg.svg);
+  display: flex;
+  flex-direction: column;
   box-shadow: -10px 10px 10px -6px rgba(207, 205, 205, 0.501);
   padding-bottom: 5rem;
   border-bottom-left-radius: 5rem;
   box-sizing: border-box;
   position: relative;
-  background-size: contain;
+}
+
+.Greetings {
+  margin: 9rem 2rem;
 }
 
 .Greetings h1 {
@@ -74,6 +77,10 @@ body {
   color: #091e42;
   padding: 5rem 1rem 1rem 1rem;
   padding-bottom: 1rem;
+}
+
+main {
+  display: grid;
 }
 
 .Content {
@@ -97,4 +104,47 @@ body {
   display: flex;
   gap: 1rem;
   padding: 0 1rem;
+}
+
+@media screen and (min-width: 900px) {
+  .box2 {
+    background-image: url(imgs/header-shapes\ mobile@2x.svg);
+    background-position: 0% 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  .box2 p {
+    margin: auto 0 3rem 0;
+  }
+
+  .box2 h1 {
+    max-width: 395px;
+    font-size: 3rem;
+  }
+
+  .box2 a {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .box2 {
+    background-image: url(imgs/header-shapes\ mobile@2x.svg);
+    background-position: 0% auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .box2 {
+    background-image: url(imgs/header-shapes\ mobile@2x.svg);
+    background-position: 0% auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
 }
