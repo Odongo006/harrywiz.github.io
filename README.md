@@ -22,6 +22,7 @@ LinkedIn: [Henry Odongo](https://www.linkedin.com/in/henry-odongo-91b830182/)
 
 # Setting up my project locally
 Clone the repository into the local computer, and then open the project using web browser.
+[My Portfolio repo](https://github.com/Odongo006/my-professional-portfolio.git)
 
 ## Show your support
 Give a ⭐️ if you like this project!
