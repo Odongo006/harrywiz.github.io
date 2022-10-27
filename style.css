@@ -57,7 +57,7 @@ body {
 
 /* background shadow  */
 .box2 {
-  background-color: #fff;
+  background-image: url(imgs/Header\ bg.svg);
   box-shadow: -10px 10px 10px -6px rgba(207, 205, 205, 0.501);
   padding-bottom: 5rem;
   border-bottom-left-radius: 5rem;
