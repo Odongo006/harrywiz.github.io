@@ -20,6 +20,9 @@ GitHub: @Odongo006
 Twitter: @HenryOdongo007
 LinkedIn: Henry Odongo
 
+# Setting up my project locally
+Clone the repository into the local computer, and then open the project using web browser.
+
 ## Show your support
 Give a ⭐️ if you like this project!
 
