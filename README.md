@@ -16,9 +16,9 @@ Go to browser and type localhost:8080. This project should run there.
 ## Author
 👤 Author: Henry Omondi
 
-GitHub: @Odongo006
-Twitter: @HenryOdongo007
-LinkedIn: Henry Odongo
+GitHub: [@Odongo006](https://github.com/Odongo006/)
+Twitter: [@HenryOdongo007](https://twitter.com/HenryOdongo007)
+LinkedIn: [Henry Odongo](https://www.linkedin.com/in/henry-odongo-91b830182/)
 
 # Setting up my project locally
 Clone the repository into the local computer, and then open the project using web browser.
