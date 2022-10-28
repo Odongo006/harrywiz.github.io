@@ -4,8 +4,8 @@
 :root {
   --clr-purple: #6070ff;
   --clr-white: #fff;
-  --clr-para: #344563;
-  --clr-gray-100: #b3bac5;
+  --clr-para: #396df2;
+  --clr-gray-100: #808080;
 }
 
 /* Reset style for page */
@@ -111,10 +111,14 @@ main {
   display: flex;
   gap: 1rem;
   padding: 0 1rem;
+  align-items: center;
+  margin-top: 0.5rem;
 }
 
 .social-icons svg {
   width: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .cards {
@@ -169,9 +173,9 @@ button {
   align-items: center;
   box-sizing: border-box;
   padding: 12px;
-  border: solid 1px var(--clr-purple #6070ff);
+  border: 1px solid var(--clr-purple);
   border-radius: 8px;
-  color: var(--clr-purple #6070ff);
+  color: var(--clr-purple);
   background-color: transparent;
   letter-spacing: 0.03rem;
   font-size: 17px;
