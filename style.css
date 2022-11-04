@@ -219,6 +219,65 @@ button {
   float: right;
 }
 
+.form-group {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--clr-purple);
+  box-sizing: border-box;
+  border: 1px solid var(--clr-purple);
+  border-top-left-radius: 5rem;
+  padding: 6rem 1.8rem;
+  height: auto;
+  box-shadow: -5px -15px 10px -10px rgba(83, 81, 81, 0.15);
+}
+
+.form-group h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 52px;
+  color: var(--clr-white);
+  padding-top: 6rem;
+}
+
+.form-input {
+  position: relative;
+}
+
+.form-group p {
+  font-size: 1.2rem;
+  line-height: 28px;
+  text-align: center;
+  color: var(--clr-white);
+  font-weight: 400;
+  display: flex;
+  margin: 2rem 0;
+}
+
+.form-group input,
+textarea {
+  background-color: var(--clr-white);
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 0.8rem 0;
+  margin: 10px 0;
+  width: 100%;
+  color: var(--clr-gray-100);
+}
+
+::placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: var(--clr-gray-100);
+  font-size: 15px;
+  padding-left: 1rem;
+}
+
+.form-bg-img {
+  position: absolute;
+  width: 60%;
+  height: auto;
+  left: 160px;
+}
+
 .card-frame {
   display: flex;
   gap: 0.8rem;
@@ -226,10 +285,30 @@ button {
   margin-bottom: 0.5rem;
 }
 
+.error {
+  position: absolute;
+  left: 10rem;
+  bottom: 1rem;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
 .card-frame li {
   font-size: 14px;
   margin: 5px;
   color: #7a869a;
+}
+
+.btn {
+  background: var(--clr-white);
+  display: flex;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--clr-purple);
+  color: var(--clr-white);
+  size: 3px;
 }
 
 .card-tags {
@@ -243,7 +322,7 @@ button {
   .box2 {
     background-image: url(imgs/header-shapes\ mobile@2x.svg);
     background-position: 0% auto;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
   }
@@ -251,6 +330,13 @@ button {
   .about {
     margin: 5rem 0 0 0;
     padding-bottom: 6rem;
+  }
+
+  .form-group {
+    background-image: url(imgs/contact\ form\ shapes-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 100px;
+    background-size: contain;
   }
 
   .about-child a {
