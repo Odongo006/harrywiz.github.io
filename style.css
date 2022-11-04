@@ -419,8 +419,8 @@ textarea {
   border-radius: 8px;
 }
 
-@media screen and (min-width: 768px){
-  .box2{
+@media screen and (min-width: 768px) {
+  .box2 {
     background-image: url(imgs/Header\ bg.svg);
     background-position: 0% 100px;
     background-size: cover;
@@ -442,18 +442,17 @@ textarea {
     background-size: cover;
   }
 
-
-
-  .box2 h1{
+  .box2 h1 {
     font-size: 3rem;
     line-height: 4.55rem;
     max-width: 400px;
   }
-  .box2 p{
+
+  .box2 p {
     font-size: 20px;
   }
 
-  .box2 a{
+  .box2 a {
     font-size: 1.2rem;
     font-weight: 500;
   }
@@ -461,7 +460,8 @@ textarea {
   .MyLogo a {
     margin-left: 3.5rem;
   }
-  .Greetings{
+
+  .Greetings {
     margin: 8rem;
   }
 
@@ -496,13 +496,10 @@ textarea {
     color: var(--clr-para);
   }
 
-  .social-icons svg {
-    width: 1rem;
-  }
-
   .card-tags li {
     font-size: 0.9rem;
   }
+
   .form-group h2 {
     padding-top: 2rem;
   }
@@ -510,6 +507,7 @@ textarea {
   .card-frame {
     margin: 0;
   }
+
   .card-block {
     margin-top: 0.5rem;
   }
@@ -532,9 +530,6 @@ textarea {
     transform: scale(1.2);
   }
 
-  .social-icons svg {
-    width: 1rem;
-  }
   .about h2 {
     font-size: 3rem;
     line-height: 50px;
@@ -545,24 +540,29 @@ textarea {
     font-weight: 500;
     color: #7f8cff;
   }
+
   .about-child {
     margin: auto 0 0 3rem;
     padding: 4rem 0 8rem 0;
   }
+
   .about p {
     padding-bottom: 0;
   }
+
   .lang li {
     display: block;
     flex-direction: column;
     transition-delay: 150ms;
     transition-duration: 350ms;
   }
+
   li .lang {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-gap: 10px;
   }
+
   .lang li:hover {
     transform: scale(1.3);
   }
