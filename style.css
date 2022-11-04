@@ -285,6 +285,14 @@ textarea {
   margin-bottom: 0.5rem;
 }
 
+.error {
+  position: absolute;
+  left: 10rem;
+  bottom: 1rem;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
 .card-frame li {
   font-size: 14px;
   margin: 5px;
@@ -294,6 +302,13 @@ textarea {
 .btn {
   background: var(--clr-white);
   display: flex;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--clr-purple);
+  color: var(--clr-white);
+  size: 3px;
 }
 
 .card-tags {
@@ -307,9 +322,10 @@ textarea {
   .box2 {
     background-image: url(imgs/header-shapes\ mobile@2x.svg);
     background-position: 0% auto;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+    
   }
 
   .about {
