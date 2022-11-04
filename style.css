@@ -243,6 +243,19 @@ button {
   position: relative;
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: var(--clr-white);
+  border: 1px solid #dfe1e6;
+  padding: 1rem;
+  gap: 12px;
+  border-radius: 1rem;
+  margin: 2rem 2rem 0 2rem;
+  box-shadow: 8px 8px 10px -10px rgb(209, 204, 204);
+}
+
 .form-group p {
   font-size: 1.2rem;
   line-height: 28px;
