@@ -342,7 +342,7 @@ textarea {
 
   .about {
     margin: 5rem 0 0 0;
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
   }
 
   .form-group {
@@ -380,11 +380,11 @@ textarea {
   flex-direction: column;
   border-top-right-radius: 5rem;
   box-shadow: 0 -10px 10px -10px rgba(83, 81, 81, 0.15);
-  margin-bottom: 10rem;
+  margin-bottom: 3rem;
 }
 
 .about-child {
-  padding: 114px 24px;
+  padding: 100px 20px;
 }
 
 .about h2 {
@@ -431,7 +431,7 @@ textarea {
   .about {
     display: grid;
     grid-template-columns: 300px 2fr;
-    padding-top: 5rem;
+    padding-top: 3rem;
     margin-bottom: 0;
   }
 
@@ -516,13 +516,9 @@ textarea {
     margin: 0 8rem;
   }
 
-  .skill-list .p {
+  .skill-list p {
     padding-bottom: 1rem;
     margin: 0 0 0 2rem;
-  }
-
-  .skill-list p {
-    padding: 1.1rem 0;
   }
 
   .social-icons svg:hover {
@@ -543,7 +539,7 @@ textarea {
 
   .about-child {
     margin: auto 0 0 3rem;
-    padding: 4rem 0 8rem 0;
+    padding: 4rem 0 5rem 0;
   }
 
   .about p {
